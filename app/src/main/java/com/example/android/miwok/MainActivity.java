@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
     public void openColorsListListener() {
         // Write the intent for opening the ColorsActivity
         TextView textView = (TextView) findViewById(R.id.colors);
