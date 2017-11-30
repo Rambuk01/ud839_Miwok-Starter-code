@@ -32,19 +32,23 @@
         <activity
             android:name=".NumbersActivity"
             android:label="@string/category_numbers"
-            android:theme="@style/NumbersTheme"/>
+            android:theme="@style/NumbersTheme"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ColorsActivity"
             android:label="@string/category_colors"
-            android:theme="@style/ColorsTheme"/>
+            android:theme="@style/ColorsTheme"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".FamilyActivity"
             android:label="@string/category_family"
-            android:theme="@style/FamilyTheme"/>
+            android:theme="@style/FamilyTheme"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".PhrasesActivity"
             android:label="@string/category_phrases"
-            android:theme="@style/PhrasesTheme"/>
+            android:theme="@style/PhrasesTheme"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
